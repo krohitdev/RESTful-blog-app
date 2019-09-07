@@ -16,7 +16,7 @@
                             </span>
                         </div>
                         <div class="description">
-                            <p><%- blog.body.substring(0,100) %> ... </p>
+                            <p><%- blog.body && blog.body.substring(0,100) %> ... </p>
                         </div>
                         <div class="extra">
                             <a href="/blogs/<%= blog._id %>" class="ui floated basic violet button ">
@@ -29,8 +29,6 @@
         </div>
     </div>
 </div>
-<h1>Index </h1>
-
 
 
 <% include ./partials/footer %>

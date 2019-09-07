@@ -1,5 +1,5 @@
 i.icon{
-    font-size:2em;
+    font-size:12px;
 }
 
 .container.main{
@@ -8,3 +8,7 @@ i.icon{
 #delete{
     display: inline;
 }
+.ui.huge.header.title{
+    font-size:1.2em;
+}
+
